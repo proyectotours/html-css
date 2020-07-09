@@ -1,0 +1,41 @@
+.arriba {
+   display: none;
+   position: fixed;
+   z-index: 999;
+   width: 80px;
+   height: 80px;
+   padding: 0;
+   bottom: 25px;
+   right: 25px;
+   background: #94470C99;
+   color: #000;
+   font-weight: bold;
+   font-size: 2.8em;
+   cursor: pointer;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+   .arriba {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      bottom: 10px;
+      right: 5px;
+      background: #94470C99;
+      color: #000;
+      font-weight: bold;
+      font-size: 2em;
+      cursor: pointer;
+      border-radius: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
