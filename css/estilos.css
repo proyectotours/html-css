@@ -5,6 +5,16 @@
 @import url(menu.css);
 @import url(content.css);
 @import url(slider.css);
+@import url(footer.css);
+
+
+
+:root{
+   
+   --footer: #3C3C3C;
+}
+
+
 
 /* colores */
 :root {

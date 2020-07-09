@@ -28,9 +28,12 @@
    margin-top: 20px;
    margin-bottom: 20px;
    padding: 5px 15px;
-   box-shadow: 0 4px #007BC6;
+   box-shadow: 0 -4px #007BC6 inset;
+   transition: all 2s;
 }
-
+.cards1 a:hover{
+   box-shadow: 0 50px #007BC6 inset;
+}
 @media screen and (max-width: 800px) {
    .cards1 {
       width: 40%;

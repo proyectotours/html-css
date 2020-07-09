@@ -7,14 +7,12 @@
    margin-bottom: 0;
    position: relative;
 }
-
 .header h1 {
    padding-left: 0;
    margin-top: 0;
    margin-bottom: 0;
-   line-height: 3;
+   line-height: 2;
 }
-
 .menu {
    list-style: none;
    padding-left: 0;
@@ -22,13 +20,11 @@
    margin-bottom: 0;
    display: none;
 }
-
 .menu li {
    flex: auto;
    position: relative;
    border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
-
 .menu li:hover::before {
    content: '';
    width: 0;
@@ -41,15 +37,12 @@
    right: 1em;
    top: calc(50% - 15px);
 }
-
 .menu li a:hover i {
    color: #fff;
 }
-
 .menu li:last-child {
    border: none;
 }
-
 .menu a {
    color: #000;
    line-height: 3;
@@ -57,12 +50,12 @@
    padding-left: 1em;
    font-weight: bold;
    font-style: .9em;
+   text-transform: uppercase;
+   letter-spacing: 3px;
 }
-
 .menu a:hover {
    background: rgba(0, 0, 0, .2);
 }
-
 #toggle-menu {
    font-weight: bold;
    font-style: .9em;
@@ -71,18 +64,6 @@
    cursor: pointer;
    position: relative;
 }
-
-/* #toggle-menu::before{
-  content: '';
-  width: 0;
-  height: 0;
-  border-top: 20px solid #000;
-  border-left: 20px solid #000;
-  border-right: 20px solid #000;
-  border-bottom: 20px solid #000;
-  position: absolute;
-  left: 4em;
-} */
 .wave {
    position: absolute;
    bottom: 0;
